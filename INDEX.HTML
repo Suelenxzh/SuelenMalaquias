@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A vida de Santidade</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #fdfdfd;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 60px 40px;
+            background-color: #ffffff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            color: #967117;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            position: relative;
+            display: inline-block;
+        }
+
+        h1::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 2px;
+            background-color: #967117;
+            margin: 10px auto 0;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            color: #444;
+            margin-top: 50px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .main-img-container {
+            margin: 40px auto;
+            max-width: 400px;
+            padding: 10px;
+            border: 2px solid #e0e0e0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            background-color: white;
+        }
+
+        .main-img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border: 1px solid #967117;
+        }
+
+        .saint-img {
+            width: 100%;
+            max-width: 320px;
+            height: auto;
+            margin: 20px auto;
+            display: block;
+            border-radius: 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .content-text {
+            text-align: justify;
+            margin: 25px 0;
+            font-size: 1.15rem;
+            color: #4f4f4f;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #eee;
+            margin: 40px 0;
+        }
+
+        .separator-detail {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 50px 0;
+            color: #967117;
+            font-size: 1.2rem;
+        }
+
+        .separator-detail::before,
+        .separator-detail::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: #e0e0e0;
+            margin: 0 15px;
+        }
+
+        .btn-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 12px 24px;
+            color: #967117;
+            text-decoration: none;
+            border: 1px solid #967117;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            background-color: white;
+        }
+
+        .btn-link:hover {
+            background-color: #967117;
+            color: white;
+            box-shadow: 0 2px 5px rgba(150, 113, 23, 0.3);
+        }
+
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 1.2rem;
+            color: #666;
+            font-weight: bold;
+        }
